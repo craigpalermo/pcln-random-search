@@ -12,7 +12,7 @@ export const envs = {
     urlRoot: 'qab.priceline.com',
   },
   'pre-prod': {
-    urlRoot: 'preprod.priceline.com',
+    urlRoot: 'gnae1-preprod.priceline.com',
   },
   prod: {
     urlRoot: 'www.priceline.com',
