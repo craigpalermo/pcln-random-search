@@ -1,10 +1,19 @@
 {
   "name": "PCLN Random Search",
   "description": "Chrome extension to generate random searches on Priceline",
-  "version": "1.0",
+  "version": "2.1.4",
   "manifest_version": 2,
   "browser_action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "favicon-16x16.png",
+      "38": "favicon-32x32.png"
+    }
   },
-  "content_security_policy": "script-src 'self'; object-src 'self'"
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{996c1882-72a2-4967-838f-33950d1c2cc8}"
+    }
+  }
 }
